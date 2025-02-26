@@ -21,7 +21,7 @@ This project demonstrates my ability to set up and manage Azure Virtual Machines
 - Choose "Windows 10" as the image, name your VM (e.g., "Win10VM"), and select the previously created Resource Group.
 - Configure basic settings (e.g., size, username, password), and allow Azure to create a new Virtual Network (VNet) and Subnet during VM creation.
 
-*Upload Image Here: Screenshot of the Windows 10 VM configuration in Azure.*
+![Alt text](https://i.imgur.com/Dpil7Yn.png)
 
 ---
 
@@ -30,15 +30,8 @@ This project demonstrates my ability to set up and manage Azure Virtual Machines
 - Select "Ubuntu Server" as the image, name your VM (e.g., "UbuntuVM"), and choose the same Resource Group and VNet as the Windows 10 VM.
 - Configure basic settings (e.g., size, username, SSH key), and ensure it uses the same VNet for connectivity.
 
-*Upload Image Here: Screenshot of the Ubuntu VM configuration in Azure.*
+![Alt text](https://i.imgur.com/GgqYkYb.png)
 
----
-
-### Step 4: Observe Your Virtual Network in Network Watcher
-- Navigate to "Network Watcher" in the Azure portal.
-- Use the "Topology" feature to view the VNet, subnets, and VMs, ensuring they’re properly connected.
-
-*Upload Image Here: Screenshot of the Network Watcher topology showing the VNet and VMs.*
 
 ---
 
