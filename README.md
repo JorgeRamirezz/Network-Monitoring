@@ -1,4 +1,4 @@
-# Monitoring Network Traffic with Azure VMs
+# Monitoring Network Traffic with Azure VMs 🌐
 
 ## Overview
 This project demonstrates my ability to set up and manage Azure Virtual Machines (VMs), configure network resources, and monitor various types of network traffic (ICMP, SSH, DHCP, DNS, and RDP) using Wireshark. By following this walkthrough, you’ll see how I leverage Azure infrastructure and network tools to analyze and troubleshoot network behavior, a critical skill for IT roles.
