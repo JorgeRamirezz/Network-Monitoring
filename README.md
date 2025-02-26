@@ -12,7 +12,7 @@ This project demonstrates my ability to set up and manage Azure Virtual Machines
 - Click "Create" and name your resource group (e.g., "NetworkMonitoringRG").
 - Select your desired region and create the resource group.
 
-*Upload Image Here: Screenshot of the created Resource Group in Azure.*
+![Alt text](https://i.imgur.com/TzV6cZw.png)
 
 ---
 
