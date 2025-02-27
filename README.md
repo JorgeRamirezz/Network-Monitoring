@@ -40,7 +40,7 @@ This project demonstrates my ability to set up and manage Azure Virtual Machines
 ### Step 5: Connect to the Windows 10 VM via Remote Desktop
 - Use Remote Desktop Protocol (RDP) to connect to your Windows 10 VM using its public IP address.
 
-![Alt text](https://i.imgur.com/sbtWr3S.png)
+![Alt text](https://i.imgur.com/mK7ClAK.png)
 
 ---
 
@@ -50,7 +50,7 @@ This project demonstrates my ability to set up and manage Azure Virtual Machines
 - Inside the Windows 10 VM, download and install Wireshark from its official website.
 - Launch Wireshark and ensure it’s ready to capture network traffic.
 
-![Alt text](https://i.imgur.com/hancsB9.png)
+![Alt text](https://i.imgur.com/UkompHb.png)
 
 ---
 
