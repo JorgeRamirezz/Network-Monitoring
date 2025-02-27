@@ -40,7 +40,7 @@ This project demonstrates my ability to set up and manage Azure Virtual Machines
 ### Step 5: Connect to the Windows 10 VM via Remote Desktop
 - Use Remote Desktop Protocol (RDP) to connect to your Windows 10 VM using its public IP address.
 
-*Upload Image Here: Screenshot of the RDP connection to the Windows 10 VM.*
+![Alt text](https://i.imgur.com/sbtWr3S.png)
 
 ---
 
