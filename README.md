@@ -45,10 +45,12 @@ This project demonstrates my ability to set up and manage Azure Virtual Machines
 ---
 
 ### Step 6: Install and Configure Wireshark
+*Wireshark is a network protocol analyzer that allows users to capture and interactively browse the traffic running on a computer network.*
+
 - Inside the Windows 10 VM, download and install Wireshark from its official website.
 - Launch Wireshark and ensure it’s ready to capture network traffic.
 
-*Upload Image Here: Screenshot of Wireshark running on the Windows 10 VM.*
+![Alt text](https://i.imgur.com/hancsB9.png)
 
 ---
 
