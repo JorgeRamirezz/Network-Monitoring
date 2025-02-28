@@ -37,14 +37,14 @@ This project demonstrates my ability to set up and manage Azure Virtual Machines
 
 ## 2. Monitoring ICMP Traffic
 
-### Step 5: Connect to the Windows 10 VM via Remote Desktop
+### Step 4: Connect to the Windows 10 VM via Remote Desktop
 - Use Remote Desktop Protocol (RDP) to connect to your Windows 10 VM using its public IP address.
 
 ![Alt text](https://i.imgur.com/mK7ClAK.png)
 
 ---
 
-### Step 6: Install and Configure Wireshark
+### Step 5: Install and Configure Wireshark
 *Wireshark is a network protocol analyzer that allows users to capture and interactively browse the traffic running on a computer network.*
 
 - Inside the Windows 10 VM, download and install Wireshark from its official website.
@@ -54,7 +54,7 @@ This project demonstrates my ability to set up and manage Azure Virtual Machines
 
 ---
 
-### Step 7: Filter and Observe ICMP Traffic
+### Step 6: Filter and Observe ICMP Traffic
 - In Wireshark, set a filter for `icmp` to monitor only ICMP traffic.
 - Retrieve the private IP address of the Ubuntu VM from the Azure portal.
 - From the Windows 10 VM, open Command Prompt or PowerShell and ping the Ubuntu VM’s private IP (e.g., `ping <Ubuntu_Private_IP>`).
@@ -65,15 +65,7 @@ This project demonstrates my ability to set up and manage Azure Virtual Machines
 
 ---
 
-### Step 8: Ping a Public Website and Analyze Traffic
-- From the Windows 10 VM, ping a public website (e.g., `ping www.google.com`).
-- Watch the ICMP traffic in Wireshark to see how requests and replies interact with external networks.
-
-*Upload Image Here: Screenshot of Wireshark capturing ICMP traffic to www.google.com.*
-
----
-
-### Step 9: Test Network Security Group (NSG) Rules
+### Step 7: Test Network Security Group (NSG) Rules
 - Initiate a continuous ping from the Windows 10 VM to the Ubuntu VM (e.g., `ping <Ubuntu_Private_IP> -t`).
 - In the Azure portal, locate the NSG associated with the Ubuntu VM.
 - Disable inbound ICMP traffic in the NSG rules.
@@ -88,7 +80,7 @@ This project demonstrates my ability to set up and manage Azure Virtual Machines
 
 ## 3. Monitoring SSH Traffic
 
-### Step 10: Filter and Observe SSH Traffic
+### Step 8: Filter and Observe SSH Traffic
 - In Wireshark, set a filter for `tcp.port == 22` to monitor SSH traffic.
 - From the Windows 10 VM, use an SSH client (e.g., PuTTY or Windows PowerShell) to connect to the Ubuntu VM’s private IP (e.g., `ssh username@<Ubuntu_Private_IP>`).
 - Enter commands (e.g., username, password) and observe the SSH traffic in Wireshark.
@@ -100,7 +92,7 @@ This project demonstrates my ability to set up and manage Azure Virtual Machines
 
 ## 4. Monitoring DHCP Traffic
 
-### Step 11: Filter and Observe DHCP Traffic
+### Step 9: Filter and Observe DHCP Traffic
 - In Wireshark, set a filter for `bootp` or `dhcp` to monitor DHCP traffic.
 - From the Windows 10 VM, open Command Prompt and renew the IP address with `ipconfig /renew`.
 - Observe the DHCP traffic in Wireshark as the VM requests and receives a new IP configuration.
@@ -111,7 +103,7 @@ This project demonstrates my ability to set up and manage Azure Virtual Machines
 
 ## 5. Monitoring DNS Traffic
 
-### Step 12: Filter and Observe DNS Traffic
+### Step 10: Filter and Observe DNS Traffic
 - In Wireshark, set a filter for `dns` to monitor DNS traffic.
 - From the Windows 10 VM, use the `nslookup` command to query IP addresses for websites (e.g., `nslookup www.google.com` and `nslookup www.disney.com`).
 - Observe the DNS queries and responses in Wireshark.
@@ -122,7 +114,7 @@ This project demonstrates my ability to set up and manage Azure Virtual Machines
 
 ## 6. Monitoring RDP Traffic
 
-### Step 13: Filter and Observe RDP Traffic
+### Step 11: Filter and Observe RDP Traffic
 - In Wireshark, set a filter for `tcp.port == 3389` to monitor RDP traffic.
 - Observe the continuous traffic in Wireshark while connected to the Windows 10 VM via RDP.
 - Note: This traffic appears non-stop because RDP streams a live desktop session, constantly transmitting data between the client and server.
