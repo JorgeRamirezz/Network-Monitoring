@@ -60,7 +60,8 @@ This project demonstrates my ability to set up and manage Azure Virtual Machines
 - From the Windows 10 VM, open Command Prompt or PowerShell and ping the Ubuntu VM’s private IP (e.g., `ping <Ubuntu_Private_IP>`).
 - Observe ping requests and replies in Wireshark.
 
-*Upload Image Here: Screenshot of Wireshark showing ICMP traffic between VMs.*
+![Alt text](https://i.imgur.com/aLDY3A2.png)
+![Alt text](https://i.imgur.com/tzf6W6j.png)
 
 ---
 
